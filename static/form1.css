@@ -1,0 +1,181 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font: bold 35px Calibri;
+	/*text-shadow: rgb(110, 110, 110) 3px 3px 5px;*/
+}
+h3{
+	font: bold 40px Calibri;
+}
+h2{
+	font: bold 35px Calibri;
+	text-shadow: rgb(110, 110, 110) 3px 3px 5px;
+}
+h4{
+	font: bold 28px Calibri;
+}
+h6{
+	font: bold 20px Calibri;
+}
+label{
+	font: bold 28px Calibri;
+}
+a:link {
+    color: black;
+	text-decoration: none;
+}
+a:visited {
+    color: black;
+	text-decoration: none;
+}
+header, footer, aside, nav, section, article, head{
+	display:block;
+}
+body{
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+}
+#big_wrapper{
+	font: 20px bold Calibri;
+	max-width: 1500px;
+	margin: 20px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+#top_header{
+	font: 20px bold Calibri;
+	width: 1400px;
+	height: 30px;
+	display: inline-block;
+	padding: 20px;
+	/*text-shadow: rgb(110, 110, 110) 3px 3px 5px;*/
+	text-align: left;
+	-webkit-box-align: horizontal;
+	-webkit-box-flex: 1;
+	-webkit-box-pack: center;
+}
+#top_menu{
+	
+	/*background: blue;*/
+	padding: 35px;
+}
+#top_menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: bold 28px Agency FB;
+	/*text-shadow: rgb(110, 110, 110) 3px 3px 5px;*/
+}
+
+#footer1{
+	border-top: 1px solid black;
+	margin-top: 30px;
+	text-align: center;
+	font: 20px Calibri;
+	color: white;	
+	background: black;
+}
+
+#nav{
+	background-color: #222;
+}
+#nav_wrapper{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+#nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+#nav ul li{
+	display: inline-block;
+}
+#nav ul li:hover{
+	background-color: #333;
+}
+#nav ul li a, visited{
+	color: #ccc;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+#nav ul li a:hover{
+	color:#ccc;
+	text-decoration: none;
+}
+#nav ul li:hover ul{
+	display: block;
+}
+#nav ul ul{
+	display: none;
+	position: absolute;
+}
+#login_reg{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+#logo{
+	padding: 0px;
+	margin: 5px;
+}
+#login{
+	font: bold 25px Calibri;
+	color: white;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-left: 670px;
+	margin: 10px;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+#register{
+	font: bold 25px Calibri;
+	color: white;
+	padding: 7px;
+	margin: 10px;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+#cart{
+	font: bold 25px Calibri;
+	color: white;
+	padding-left: 7px;
+	padding-bottom: 7px;
+	padding-top:7px;
+	margin: 10px;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+#header{
+	-webkit-box-flex: 0;
+	padding: 12px;
+}
+
+.sidebutton:hover{
+	background-color:white;
+}
+#login1{
+	margin-left: 510px;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+#l1{
+	width: 300px;
+	padding-left: 50px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	font: 30px bold Calibri;
+	-webkit-border-radius: 10px;
+	-webkit-box-shadow: rgb(180, 180, 180) 8px 8px 8px;
+}
+#l1 li{
+	list-style: none;
+}

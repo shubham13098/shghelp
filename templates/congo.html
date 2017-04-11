@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Signup Successfull</title>
+	<link rel="stylesheet" href="static/congo.css">
+</head>
+<body style="background-color: white">
+
+<div id="big_wrapper">
+<header id="top_header">
+		<div id="login_reg">
+			<div id="logo"><a href="h"><img src="static/logo.jpg" alt="Mountain View" style="width:75px;height:75px;"></a></div>
+			<div id="header"><h3>IIITD Store</h3></div>
+			{% if logged_in %}
+			<div id="logged_in"><div style="margin-left:650px;padding-top:20px;padding-left:7px;padding-right:7px;"><span style="font-family:Calibri;font-size:25px;font-weight:bold;">{{user_name}}</span></div></div
+			><div id="logout"><div style="padding-left: 20px;padding-top:20px;padding-right:12px;"><a href="logout"><span style="font-family:Calibri;font-size:25px;font-weight:bold">Logout</span></a></div></div>
+			{% else%}
+			<div id="login"><a href="f1">Login</a></div>
+			<div id="register"><a href="f2">Register</a></div>
+			{% endif %}
+			<div id="cart"><a href="#">Cart</a></div>
+			<div id="cart_logo"><a href="#"><img src="static/cart.jpg" alt="Cart logo" style="width:40px;height:40px;"></a></div>
+		</div>
+</header>
+<nav id="top_menu">
+	<div id="nav">
+		<div id="nav_wrapper">
+			<ul>
+				<li id="menu1"><a href="h">Home</a></li>
+				<li id="menu2"><a href="#">Categories</a>
+					<ul>
+						<li><a href="w1">Hunger Treat</a></li>
+						<li><a href="w2">Soft Drinks</a></li>
+						<li><a href="w3">Cosmetics</a></li>
+						<li><a href="w4">Others</a></li>
+					</ul>
+					</li>
+				<li id="menu3"><a href="/p">Popular</a></li>
+				<li id="menu4"><a href="/a">About</a></li>
+				<li id="menu5"><a href="help">Feedback</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div id="congo">
+<h4>Congratulations! You have successfully signed up ;D</h4>
+</div>
+<footer id="footer1">
+	Terms and Conditions Apply
+</footer>
+</div>
+</body>
+</html>
